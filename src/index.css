@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ li{
+display: inline-block;
+padding: 25px 0;
+width: 33.3%;
+text-align: center;
+
+ }
+ ul{
+   width:100%;
+ }
+ nav{
+   box-sizing: border-box;
+   font-size: 30px;
+   background-color: navy;
+   color: white;
+ }
+ #titleimage{
+  /* background-image: url(./images/marvel.jpg); */
+  color: black;
+   text-align: center;
+  z-index: 0;
+ }
+ #title{
+   /* background-color: white; */
+   
+   font-size: 50px;
+   z-index: 1;
+ }
+
+ .cardimg {
+   width: 150px;
+   height: 150px;
+ }
+
+ .card {
+   float: left;
+   margin: 10px;
+   
+ }
+ #characterdiv {
+   margin: 0 auto;
+   width: 750px;
+   height: 750px;
+ }
