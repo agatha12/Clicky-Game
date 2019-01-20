@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Header from './components/Header';
 import Title from './components/Title';
 import Footer from './components/Footer';
@@ -8,12 +7,15 @@ import ImageCard from "./components/ImageCard"
 
 
 class App extends Component {
+
+
   state = {
     score: 0,
     best_score: 0,
     characters: characters,
     unchoosenchars: characters
   };
+
 
   shuffleArray = array => {
     let i = array.length - 1;
@@ -25,6 +27,8 @@ class App extends Component {
     }
     return array;
   }
+
+
   userChoice = chosenid => {
     const answer = this.state.unchoosenchars.find(element => element.id === chosenid);
     if( answer === undefined){
@@ -57,9 +61,6 @@ class App extends Component {
     }
   }
 
-  
-
- 
 
   
   render() {
