@@ -24,11 +24,16 @@ text-align: center;
  }
  nav{
    box-sizing: border-box;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
    font-size: 30px;
    background-color: navy;
    color: white;
  }
  #titleimage{
+   margin-top: 120px;
   /* background-image: url(./images/marvel.jpg); */
   color: black;
    text-align: center;

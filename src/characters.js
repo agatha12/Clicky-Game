@@ -1,37 +1,60 @@
-import React from "react";
-// import blackcat from "./images/blackcat.jpg";
-// import blackpanther from "./images/blackpanther.jpg";
-// import blade from "./images/blade.jpg";
-// import captainamerica from "./images/captainamerica.jpg";
-// import deadpool from "./images/deadpool.jpg";
-// import hulk from "./images/hulk.jpg";
-// import ironman from "./images/ironman.jpg";
-// import spiderman from "./images/spiderman.jpg";
-// import storm from "./images/storm.jpg";
-// import thor from "./images/thor.jpg";
-// import venom from "./images/venom.jpg";
-// import wolverine from "./images/wolverine.jpg";
-import ImageCard from "./components/ImageCard"
 
 
 
-function Character() {
+  const characters = [
+    {
+      id: 1,
+      image: '../images/blackcat.jpg'
+    },
+    {
+      id: 2,
+      image: "../images/blackpanther.jpg"
+    },
+    {
+      id: 3,
+      image: "../images/blade.jpg"
+    },
+    {
+      id: 4,
+      image: "../images/captainamerica.jpg"
+    },
+    {
+      id: 5,
+      image: "../images/deadpool.jpg"
+    },
+    {
+      id: 6,
+      image: "../images/hulk.jpg"
+    },
+    {
+      id: 7,
+      image: "../images/ironman.jpg"
+    },
+    {
+      id: 8,
+      image: "../images/spiderman.jpg"
+    },
+    {
+      id: 9,
+      image: "../images/storm.jpg"
+    },
+    {
+      id: 10,
+      image: "../images/thor.jpg"
+    },
+    {
+      id: 11,
+      image: "../images/venom.jpg"
+    },
+    {
+      id: 12,
+      image: "../images/wolverine.jpg"
+    }]
 
-    const charactersArr = [ '../images/blackcat.jpg', "../images/blackpanther.jpg", "../images/blade.jpg", "../images/captainamerica.jpg", "../images/deadpool.jpg", "../images/hulk.jpg", "../images/ironman.jpg", "../images/spiderman.jpg", "../images/storm.jpg", "../images/thor.jpg", "../images/venom.jpg", "../images/wolverine.jpg"]
-
-    let characters = charactersArr.map(character =>
-      <ImageCard
-      image={character}
-    />
-    )
-  
-    return (
-      <div> <br></br>  {characters}</div>
-      
-      
-    );
-  }
-  
 
 
-export default Character
+
+
+
+
+export default characters
