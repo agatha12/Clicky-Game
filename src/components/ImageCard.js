@@ -27,13 +27,13 @@ class ImageCard extends React.Component {
   render() {
     return (
 
-      <button value={this.props.id} onClick={() => this.props.userChoice(this.props.id)} className="card">
+      <a value={this.props.id} onClick={() => this.props.userChoice(this.props.id)} className="hvr-grow">
         <br></br>
 
         <img className="cardimg" src={this.props.image} alt="character"></img>
 
 
-      </button>
+      </a>
 
 
 

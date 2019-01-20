@@ -49,15 +49,38 @@ text-align: center;
  .cardimg {
    width: 150px;
    height: 150px;
+   margin:10px;
  }
+ /* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  background-color: white;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  margin: 10px;
+  box-shadow: 5px 5px lightgray;
+  border-color: grey;
+  border: solid grey 1px;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+  
+}
 
  .card {
    float: left;
-   margin: 10px;
+   
    
  }
  #characterdiv {
    margin: 0 auto;
-   width: 750px;
+   width: 800px;
    height: 750px;
  }
