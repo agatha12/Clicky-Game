@@ -1,13 +1,4 @@
 
-
-- Gives a high-level overview of how the app is organized
-
-- Gives start-to-finish instructions on how to run the app
-
-- Link to deployed version of the app
-
-- Screenshots of the app
-
 ![Alt text](/public/images/marvel.jpg?raw=true "Title")
 
 #Clicky Game

@@ -71,4 +71,30 @@ text-align: center;
   
 }
 
+@media screen and (max-width: 880px) {
+  #characterdiv {
+    width: 100%;
+  }
 
+  .hvr-grow {
+    width: 24%;
+    
+    margin:1px;
+  }
+
+  .cardimg {
+    width: 100%;
+    height: 100%;
+    margin:1px;
+  }
+  
+ #titleimage{
+  margin-top: 250px;
+  
+}
+#marvelimg{
+  margin: 0 auto;
+  width: 400px;
+  height: 150px;
+}
+}
