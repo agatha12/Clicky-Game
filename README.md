@@ -1,19 +1,38 @@
+Clicky Game
+========== 
 
-![Alt text](/public/images/marvel.jpg?raw=true "Title")
+Overview Description
+--------------------
 
-#Clicky Game
-
-The purpose of Clicky Game is to create a memory game where users must click on 12 unique images and try not to click the same one twice. 
-
-Clicky Game accomplishes this by using React
+Clicky Game is a memory game where users must click on 12 unique images and try not to click the same one twice. 
 
 
-This app was created using create-react-app. In order to run it on your machince just clone the repo and run a yarn install then yarn start. 
+Installation
+-----------------
 
-Play the Game...
+- Run "yarn install" from the Travel-App folder
+- Run "yarn start"
+
+
+Skills Used
+-----------
+
+- React
+- HTML 
+- CSS / Bootstrap
+- Javascript
+- Heroku
+
+
+
+Heroku Live Link
+----------------
+
 https://murmuring-shore-75631.herokuapp.com/
 
+
+Screenshot
+-----------
+
+
 ![Alt text](/public/images/Screenshot65.png?raw=true "Title")
-
-
-
