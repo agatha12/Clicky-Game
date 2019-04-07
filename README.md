@@ -10,7 +10,7 @@ Clicky Game is a memory game where users must click on 12 unique images and try 
 Installation
 -----------------
 
-- Run "yarn install" from the Travel-App folder
+- Run "yarn install" 
 - Run "yarn start"
 
 
